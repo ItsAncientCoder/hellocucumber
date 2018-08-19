@@ -7,7 +7,6 @@ Feature: Is it Friday yet?
     * I am on the Google search page
     * I search for "Cheese!"
     * the page title should start with "cheese"
-    * Close the browser
 
   @Hicups
   Scenario Outline: Today is or is not Friday
@@ -20,3 +19,6 @@ Feature: Is it Friday yet?
       | "Sunday"         | "Nope" |
       | "Friday"         | "TGIF" |
       | "Anything else!" | "Nope" |
+
+  Scenario: This is to close the browser
+    * Close the browser

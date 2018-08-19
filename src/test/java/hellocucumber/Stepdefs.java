@@ -33,4 +33,10 @@ public class Stepdefs {
 	public void i_should_be_told(String expectedAnswer) {
 		assertEquals(expectedAnswer, actualAnswer);
 	}
+
+	//TODO-- need to know 'how to pass annotations of others scenarios in @After
+	/*@After("@Sele and @Stars")
+	public void simlple() {
+		System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7");
+	}*/
 }
